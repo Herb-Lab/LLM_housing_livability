@@ -1,0 +1,34 @@
+[project]
+name = "llm_housing_livability"
+version = "0.1.0"
+description = "LLM Housing Livability"
+authors = [
+    { name = "Shundong Li", email = "sli19@wpi.edu" }
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+dependencies = [
+    "beautifulsoup4",
+    "bertopic",
+    "cuml",
+    "datasets",
+    "evaluate",
+    "matplotlib",
+    "nltk",
+    "numpy",
+    "openai",
+    "pandas",
+    "plotly",
+    "requests",
+    "retry",
+    "scikit-learn",
+    "tenacity",
+    "torch",
+    "tqdm",
+    "transformers",
+    "urllib3"
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
